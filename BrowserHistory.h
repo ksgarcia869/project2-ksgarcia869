@@ -8,7 +8,8 @@
 using std::string;
 
 struct Node{
-    Node *next; 
+    Node *next;
+    Node *prev; 
     string data; 
 };
 
