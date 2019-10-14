@@ -7,6 +7,11 @@
 
 using std::string;
 
+struct Node{
+    Node *next; 
+    string data; 
+};
+
 class BrowserHistory {
 public:
     BrowserHistory();
@@ -22,5 +27,7 @@ public:
     size_t getHistoryLength();
 
 private:
+    Node *head; 
+    Node *tail; 
   // TO BE COMPLETED
 };
