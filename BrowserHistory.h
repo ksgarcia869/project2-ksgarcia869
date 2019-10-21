@@ -59,7 +59,6 @@ void BrowserHistory::visitSite(string url, size_t filesize){
     temp.Websites_name = url; //adding the website ulr in the class string variable
     temp.size = filesize; //adding the size in the class size_t variable
     webn.push_back(temp); //pushes back a new node with the temporary class
-    //webs.push_back(filesize);//pushes back a new node with the index of the website
     webn.pop_front(); //webs.pop_front();
     n = webn.begin(); //sets the iterator to the beginning of the Link List
   }
